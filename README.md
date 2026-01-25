@@ -1,1 +1,0 @@
-# sugi-teacher.github.io
