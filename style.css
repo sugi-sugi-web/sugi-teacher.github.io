@@ -70,6 +70,9 @@ nav a{
 
 
 
+
+
+
 .selfphoto-img{
   display: block;
   margin: 0 auto 20px;
@@ -181,6 +184,13 @@ section{
 }
 
 
+#contact p{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+
 
 form div{
   margin-bottom: 16px;
@@ -188,19 +198,42 @@ form div{
 
 form{
   max-width: 600px;
+  margin: 0 auto;
+  background-color: #f9fbfd;
+  padding: 30px;
+  border-radious: 10px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
 }
 
 label{
   display: block;
   margin-bottom: 4px;
+  font-weight: bold;
 }
 
 input,
 textarea{
   width: 100%;
-  padding: 8px;
-  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 18px;
 }
+
+textarea{
+  height: 140px;
+  resize: none;
+}
+
+
+input:focus,
+textarea:focus{
+  outline: none;
+  border: 1px solid #2c3e50;
+  box-shadow: 0 0 5px rgba(44,62,80,0.3);
+}
+
+
 
 
 button[type="submit"]{
@@ -211,6 +244,8 @@ button[type="submit"]{
   border: none;
   border-radius: 6px;
   cursor: pointer;
+  display: block;
+  margin: 20px auto;
 }
 
 button[type="submit"]:hover{
